@@ -1,0 +1,19 @@
+.common-container {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 20px;
+	width: 100%;
+	height: 100vh;
+	@include pc-mini {
+		padding: 50px;
+
+	}
+}
+
+.Container {
+	position: relative;
+	@include pc-mini {
+		height: 100vh;
+	}
+}

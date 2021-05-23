@@ -1,0 +1,37 @@
+.sidebar-container {
+	background-color: white;
+	position: absolute;
+  top:0;
+	right: 0;
+  bottom:0;
+	padding: 0;
+	margin-top: 0;
+	height:163%;
+	width: 70%;
+	display: flex;
+	flex-flow: column;
+	padding: 20px;
+
+
+}
+.sidebar-container > .item {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	z-index: -9999;
+	cursor: pointer;
+	&:hover {
+		opacity: 0.7;
+	}
+}
+.sidebar-container > .delimiter {
+	color: gray;
+	width: 100%;
+}
+.sidebar-container > .delete {
+	color: $color-black;
+	margin-left: auto;
+	cursor: pointer;
+	&:hover {
+		opacity: 0.7;
+	}
+}

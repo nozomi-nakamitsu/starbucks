@@ -1,0 +1,19 @@
+.left-container {
+	width: 50%;
+	margin-bottom: auto;
+	padding-top: 30px;
+	@include pc-mini {
+		width: 100%;
+
+	}
+}
+.left-container > .title {
+	font-size: 5rem;
+	line-height: 1.2;
+}
+.left-container > .title > .StarBucks {
+	color: $color-green;
+}
+.left-container > .text {
+	margin-top: 20px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<link
+			href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+			rel="stylesheet"
+		/>
+
+		<script src="index.js"></script>
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="Container">
+
+
+			<header class="common-container header-container">
+				<div class="logo"><img src="./Image/logo.png" alt="" /></div>
+				<div class="nav">
+					<div class="item">Home</div>
+					<div class="item">Menu</div>
+					<div class="item">What'sNew</div>
+					<div class="item">Contact</div>
+					<i class="fas fa-bars hamburger" onclick="getVisibleSidebar()"></i>
+				</div>
+			</header>
+			<div class="sidebar-container opacity-one-enter" id="sidebar">
+				<i class="fas fa-times delete " onclick="getInvisibleSidebar()"></i>
+				<div class="item hide " >Home</div>
+				<div class="item hide" >Menu</div>
+				<div class="item hide ">What'sNew</div>
+				<div class="item hide ">Contact</div>
+				<hr  class="delimiter hide">
+			</div>
+			<div class="common-container">
+				<div class="main-container">
+					<div class="left-container">
+						<h1 class="title">Its not just Coffee</h1>
+						<h1 class="title">Its<span class="StarBucks"> StarBucks</span></h1>
+						<p class="text">
+							Funnel cake–flavored syrup blended with coffee, milk and ice,
+							layered with strawberry puree, whipped cream and
+							powdered-sugar-funnel-cake pieces.Funnel cake–flavored syrup
+							blended with coffee, milk and ice, layered with strawberry puree,
+							whipped cream and powdered-sugar-funnel-cake pieces.Funnel
+							cake–flavored syrup blended with coffee, milk and ice, layered
+							with strawberry puree, whipped cream and
+							powdered-sugar-funnel-cake pieces.
+						</p>
+						<div class="button-component">Learn More</div>
+					</div>
+					<div class="right-container">
+						<div class="right-items">
+							<div class="image">
+								<img src="./Image/img1.png" alt="" id="img" class="image" />
+							</div>
+							<div class="sns">
+								<i class="fab fa-facebook-f item"></i>
+								<i class="fab fa-twitter item"></i>
+								<i class="fab fa-instagram item"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-container">
+					<img
+						src="./Image/thumb1.png"
+						alt=""
+						id="green"
+						onclick="ChangeBackgroundColor('green')"
+					/>
+					<img
+						src="./Image/thumb2.png"
+						alt=""
+						id="pink"
+						onclick="ChangeBackgroundColor('pink')"
+					/>
+					<img
+						src="./Image/thumb3.png"
+						alt=""
+						id="dark-pink"
+						onclick="ChangeBackgroundColor('dark_pink')"
+					/>
+				</div>
+			</div>
+		</div>
+		<div class="circle" id="circle"></div>
+	</body>
+</html>

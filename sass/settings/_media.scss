@@ -1,0 +1,9 @@
+$pc-mini: 1042px;
+@mixin pc-mini {
+  /*1024以下はここを読み込む*/
+  @media only screen and (max-width: ($pc-mini)) {
+    @content;
+  }
+}
+
+

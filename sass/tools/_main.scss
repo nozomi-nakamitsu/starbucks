@@ -1,0 +1,35 @@
+// サイドバーの表示・非表示の切り替え
+.opacity-one-enter {
+  opacity: 0;
+	z-index: -1;
+	// animation: SlideOut 0.5s;
+}
+.opacity-one-enter-to {
+	z-index: 1;
+	animation: SlideIn 0.3s;
+}
+.opacity-zero {
+	opacity: 0;
+}
+
+@keyframes SlideIn {
+	0% {
+		opacity: 0;
+		transform: translateX(64px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes SlideOut {
+	0% {
+    opacity: 1;
+		transform: translateX(-64px);
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 0;
+	}
+}

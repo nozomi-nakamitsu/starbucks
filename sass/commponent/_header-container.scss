@@ -1,0 +1,38 @@
+.header-container {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	padding-right: 50px;
+}
+.header-container > .logo {
+}
+.header-container > .nav {
+	display: flex;
+	align-items: center;
+	font-size: 2.0rem;
+	justify-content: flex-end;
+	margin-left: auto;
+	cursor: pointer;
+}
+.header-container > .nav > .item {
+	margin-left: 50px;
+	margin-left: 50px;
+	@include pc-mini{
+		display: none;
+	}
+}
+.header-container > .nav > .hamburger {
+	display: none;
+
+	@include pc-mini{
+		display: flex;
+		font-size: 4.0rem;
+	}
+}
+.header-container > .nav > .item:hover {
+	opacity: 0.7;
+}
+
+
+

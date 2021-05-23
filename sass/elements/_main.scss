@@ -1,0 +1,72 @@
+// シオノギをコピー
+
+
+input[type='submit'] {
+  border: none;
+  outline: none;
+  padding: unset;
+}
+input {
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+div {
+  box-sizing: border-box;
+}
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: $color-black;
+  font-family: $font-family;
+  outline: none;
+  resize: none;
+}
+
+div,
+p,
+label,
+input,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  box-sizing: border-box;
+}
+
+button {
+  border-color: transparent;
+  outline: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  display: inline-block;
+  /* reset */
+  margin: 0;
+  outline: none;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px $color-white inset;
+}

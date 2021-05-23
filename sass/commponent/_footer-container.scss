@@ -1,0 +1,17 @@
+.footer-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+  @include pc-mini{
+    	align-items: flex-end;
+      justify-content: center;
+
+  }
+}
+.footer-container > img {
+	cursor: pointer;
+	transition: all 700ms 0s ease;
+	&:hover {
+		transform: translateY(-40px);
+	}
+}

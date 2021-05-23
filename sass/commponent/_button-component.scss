@@ -1,0 +1,14 @@
+.button-component {
+	background-color: $color-green;
+	color: $color-white;
+	width: 150px;
+	text-align: center;
+	padding: 8px 0 10px;
+	border-radius: 50px;
+  margin-right:auto;
+  margin-top:20px;
+  cursor: pointer;
+  &:hover{
+    opacity: 0.7;
+  }
+}

@@ -1,0 +1,19 @@
+html {
+	font-size: 62.5%;
+}
+body {
+	background: $color-white;
+	color: $color-black;
+	font-family: $font-family;
+	font-size: $font-size;
+	font-weight: normal;
+	line-height: 1.5;
+	opacity: 1;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	@include pc-mini {
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+}

@@ -1,0 +1,40 @@
+//settings
+@import './settings/colors';
+@import './settings/fonts';
+@import './settings/media';
+// tools
+@import 'tools/main';
+// generic
+@import 'generic/reset';
+@import 'generic/main';
+
+// objects
+@import 'objects/commomn-container';
+@import 'objects/flex_list';
+
+// elements
+@import 'elements/main';
+
+// components
+@import 'commponent/header-container';
+@import 'commponent/main-container';
+@import 'commponent/left-container';
+
+@import 'commponent/button-component';
+@import 'commponent/right-container';
+@import 'commponent/circle';
+@import 'commponent/footer-container';
+@import 'commponent/sidebar-container';
+
+
+
+
+
+
+
+
+
+
+
+// utilities
+@import 'utilities/main';
