@@ -4,20 +4,26 @@
 ![タイトルなし](https://user-images.githubusercontent.com/81731759/119259609-fb31bb00-bc09-11eb-8830-a49670e8f89f.gif)
 
 <img width="1680" alt="スクリーンショット 2021-05-23 21 26 05" src="https://user-images.githubusercontent.com/81731759/119260380-819bcc00-bc0d-11eb-8af4-7bbecf41a1d4.png">
+
 # 使用技術
 html scss  生のjs 
+
 # 実装内容
 - 画面の作成
 - レスポンシブ対応
 - ヘッダーにサイドバー開閉
 - RSCSS,ITCSSを使ってみた
 - 小さいフラペチーノを押すと色が変わる
+
 # できなかったこと
 - サイドバーを閉じるときのアニメーション
 - UIのずれ（真ん中の位置、背景の緑の円の実装方法がよくわからず力技感がある）
+
 <img width="675" alt="スクリーンショット 2021-05-23 21 05 37" src="https://user-images.githubusercontent.com/81731759/119259872-397baa00-bc0b-11eb-997d-57becd895c0d.png">
 
-#　疑問点 
+
+# 疑問点 
+
 ## scssファイルの書き方
 - コンポーネントの分け方
 - クラス名の付け方
